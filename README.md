@@ -36,6 +36,14 @@ A category on UIButton that extends for adding target.
 @end
 ```
 
+## Install
+
+Use CocoaPods.
+
+```ruby
+pod 'UIButton+WithObject'
+```
+
 ## License
 Copyright (c) 2014 woxtu
 
