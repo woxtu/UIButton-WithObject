@@ -1,5 +1,7 @@
 # UIButton+WithObject
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/UIButton+WithObject.svg?style=flat-square)](https://cocoapods.org/pods/UIButton+WithObject)
+
 A category on UIButton that extends for adding target.
 
 ## Usage
