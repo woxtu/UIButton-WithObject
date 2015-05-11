@@ -14,7 +14,7 @@
 - (void)addTarget:(id)target action:(SEL)action withObject:(id)object forControlEvents:(UIControlEvents)controlEvents {
     SEL action_ = [self generateAction:action withObject:object withObject:nil];
     IMP impl = imp_implementationWithBlock(^(id self_) {
-        objc_msgSend(self_, action, self, [object copy]);
+        ((void(*)(id, SEL, id, id))objc_msgSend)(self_, action, self, [object copy]);
     });
     class_replaceMethod([target class], action_, impl, "v@:@");
     
@@ -24,7 +24,7 @@
 - (void)addTarget:(id)target action:(SEL)action withObject:(id)object1 withObject:(id)object2 forControlEvents:(UIControlEvents)controlEvents {
     SEL action_ = [self generateAction:action withObject:object1 withObject:object2];
     IMP impl = imp_implementationWithBlock(^(id self_) {
-        objc_msgSend(self_, action, self, [object1 copy], [object2 copy]);
+        ((void(*)(id, SEL, id, id, id))objc_msgSend)(self_, action, self, [object1 copy], [object2 copy]);
     });
     class_replaceMethod([target class], action_, impl, "v@:@");
     
