@@ -10,16 +10,13 @@
 		6F13B8A918A7C7A200215DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13B8A818A7C7A200215DAB /* Foundation.framework */; };
 		6F13B8AB18A7C7A200215DAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13B8AA18A7C7A200215DAB /* CoreGraphics.framework */; };
 		6F13B8AD18A7C7A200215DAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13B8AC18A7C7A200215DAB /* UIKit.framework */; };
-		6F13B8B318A7C7A200215DAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F13B8B118A7C7A200215DAB /* InfoPlist.strings */; };
 		6F13B8B518A7C7A200215DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13B8B418A7C7A200215DAB /* main.m */; };
 		6F13B8B918A7C7A200215DAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13B8B818A7C7A200215DAB /* AppDelegate.m */; };
-		6F13B8BB18A7C7A200215DAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F13B8BA18A7C7A200215DAB /* Images.xcassets */; };
 		6F13B8D918A7C7ED00215DAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13B8D718A7C7ED00215DAB /* ViewController.m */; };
 		6F13B8E618A7C7FC00215DAB /* UIButton+WithObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13B8E218A7C7FC00215DAB /* UIButton+WithObject.m */; };
 		6F333D3918A7CBA6006ACADF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13B8C118A7C7A200215DAB /* XCTest.framework */; };
 		6F333D3A18A7CBA6006ACADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13B8A818A7C7A200215DAB /* Foundation.framework */; };
 		6F333D3B18A7CBA6006ACADF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13B8AC18A7C7A200215DAB /* UIKit.framework */; };
-		6F333D4118A7CBA6006ACADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F333D3F18A7CBA6006ACADF /* InfoPlist.strings */; };
 		6F333D4318A7CBA6006ACADF /* UIButton_WithObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F333D4218A7CBA6006ACADF /* UIButton_WithObjectTests.m */; };
 /* End PBXBuildFile section */
 
@@ -38,23 +35,18 @@
 		6F13B8A818A7C7A200215DAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F13B8AA18A7C7A200215DAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6F13B8AC18A7C7A200215DAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6F13B8B018A7C7A200215DAB /* DemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoApp-Info.plist"; sourceTree = "<group>"; };
-		6F13B8B218A7C7A200215DAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F13B8B018A7C7A200215DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F13B8B418A7C7A200215DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F13B8B618A7C7A200215DAB /* DemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoApp-Prefix.pch"; sourceTree = "<group>"; };
 		6F13B8B718A7C7A200215DAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F13B8B818A7C7A200215DAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F13B8BA18A7C7A200215DAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F13B8C118A7C7A200215DAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6F13B8D718A7C7ED00215DAB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F13B8D818A7C7ED00215DAB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F13B8E118A7C7FC00215DAB /* UIButton+WithObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WithObject.h"; sourceTree = "<group>"; };
 		6F13B8E218A7C7FC00215DAB /* UIButton+WithObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WithObject.m"; sourceTree = "<group>"; };
 		6F333D3818A7CBA6006ACADF /* UIButton+WithObjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIButton+WithObjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F333D3E18A7CBA6006ACADF /* UIButton+WithObjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIButton+WithObjectTests-Info.plist"; sourceTree = "<group>"; };
-		6F333D4018A7CBA6006ACADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F333D3E18A7CBA6006ACADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F333D4218A7CBA6006ACADF /* UIButton_WithObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButton_WithObjectTests.m; sourceTree = "<group>"; };
-		6F333D4418A7CBA6006ACADF /* UIButton+WithObjectTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WithObjectTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,21 +111,10 @@
 				6F13B8D718A7C7ED00215DAB /* ViewController.m */,
 				6F13B8B718A7C7A200215DAB /* AppDelegate.h */,
 				6F13B8B818A7C7A200215DAB /* AppDelegate.m */,
-				6F13B8BA18A7C7A200215DAB /* Images.xcassets */,
-				6F13B8AF18A7C7A200215DAB /* Supporting Files */,
+				6F13B8B018A7C7A200215DAB /* Info.plist */,
+				6F13B8B418A7C7A200215DAB /* main.m */,
 			);
 			path = DemoApp;
-			sourceTree = "<group>";
-		};
-		6F13B8AF18A7C7A200215DAB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F13B8B018A7C7A200215DAB /* DemoApp-Info.plist */,
-				6F13B8B118A7C7A200215DAB /* InfoPlist.strings */,
-				6F13B8B418A7C7A200215DAB /* main.m */,
-				6F13B8B618A7C7A200215DAB /* DemoApp-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6F13B8E018A7C7FC00215DAB /* UIButton+WithObject */ = {
@@ -149,19 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				6F333D4218A7CBA6006ACADF /* UIButton_WithObjectTests.m */,
-				6F333D3D18A7CBA6006ACADF /* Supporting Files */,
+				6F333D3E18A7CBA6006ACADF /* Info.plist */,
 			);
 			path = "UIButton+WithObjectTests";
-			sourceTree = "<group>";
-		};
-		6F333D3D18A7CBA6006ACADF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F333D3E18A7CBA6006ACADF /* UIButton+WithObjectTests-Info.plist */,
-				6F333D3F18A7CBA6006ACADF /* InfoPlist.strings */,
-				6F333D4418A7CBA6006ACADF /* UIButton+WithObjectTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +179,7 @@
 		6F13B89D18A7C7A200215DAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = woxtu;
 				TargetAttributes = {
 					6F333D3718A7CBA6006ACADF = {
@@ -239,8 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F13B8B318A7C7A200215DAB /* InfoPlist.strings in Resources */,
-				6F13B8BB18A7C7A200215DAB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +217,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F333D4118A7CBA6006ACADF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,25 +252,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		6F13B8B118A7C7A200215DAB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F13B8B218A7C7A200215DAB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6F333D3F18A7CBA6006ACADF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F333D4018A7CBA6006ACADF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		6F13B8CF18A7C7A200215DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -322,6 +271,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -380,8 +330,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DemoApp/DemoApp-Prefix.pch";
-				INFOPLIST_FILE = "DemoApp/DemoApp-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = DemoApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,8 +344,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DemoApp/DemoApp-Prefix.pch";
-				INFOPLIST_FILE = "DemoApp/DemoApp-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = DemoApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,12 +362,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIButton+WithObjectTests/UIButton+WithObjectTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UIButton+WithObjectTests/UIButton+WithObjectTests-Info.plist";
+				INFOPLIST_FILE = "UIButton+WithObjectTests/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -432,8 +385,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIButton+WithObjectTests/UIButton+WithObjectTests-Prefix.pch";
-				INFOPLIST_FILE = "UIButton+WithObjectTests/UIButton+WithObjectTests-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "UIButton+WithObjectTests/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
